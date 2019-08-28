@@ -28,7 +28,9 @@ This file uses the Option key as a meta key.  This overrides the Mac OS keybindi
 To access the original binding of an Option combination, simply type Control-Q and the binding, and the original character will be output.
 If that doesn't work on your platform, run this and you should be g2g:
 
+```
 defaults write -g NSQuotedKeystrokeBinding -string "^q"
+```
 
 NOTES:
 
